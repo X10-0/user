@@ -1,29 +1,37 @@
-<!DOCTYPE>
-<html>
-    <head>
-        <link rel="stylesheet" href="sty.css">
-    </head>
-    <body>
-      <header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        
         <ul>
-          <li>Hamburguesas</li>
-          <li>Pollo a la Broaster</li>
-          <li>Pizza</li>
-          <li>Pollo al espiedo</li>
+            <li onclick=" document.getElementById('contenido').src='ejemtabla.html' " >Pollo a la broaster</li>
+            <li  onclick=" document.getElementById('contenido').src='ejmmarquesina.html' "  >Pizza</li>
+            <li>  <a href="https://www.bing.com/search?q=bolivia&form=ANNTH1&refig=6a983568a15c4721801ab780a44b8425&pc=LCTS" target = "contenido" > Bolivia</a> </li>
+            <li>Pollo al spiedo</li>
+
         </ul>
-      </header>
-      <section class="imagefondo">
-        <div class="fondooscuro">
-          <h2>Las mejores hamburguesas de la ciudad</h2>
-            <button class="boton">Reservar</button>
-        </div>
-      </section>
-      <header>
-        <h1>RESTAURANT Chicago</h1>
-      </header>
-      <h1>DISFRUTA DE LA MEJOR COMIDA RAPIDA DE LA CIUDAD</h1>
-      <footer>
-        <h1>Copy right Sistemas</h1>
-      </footer>
-    </body>
+
+    </header>
+    <section class="imagenfondo" >
+       <div class="fondo" >
+            <h2>La mejor comida rápida de la ciudad</h2>
+            <button  class="boton">Reservar</button>
+       </div>
+       
+
+    </section>
+    <iframe 
+            id="contenido" src="https://en.wikipedia.org/wiki/Universitario_de_Sucre" 
+            name="contenido" >
+
+       </iframe>
+    
+    <footer> Copy right @ Sistemas </footer>
+</body>
 </html>
