@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Personal - Joel</title>
+    <link rel="icon" href="imagenes/PS2.webp">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-titulo">
+            <img src="imagenes/logo.jpg" alt="Logo" class="logo">
+            <div>
+                <h1>Sitio Personal</h1>
+                <p>Bienvenido a mi espacio personal</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li onclick="document.getElementById('contenido').src='sm.html'">Inicio / Sobre mí</li>
+            <li onclick="document.getElementById('contenido').src='hobbies.html'">Mis hobbies</li>
+            <li onclick="document.getElementById('contenido').src='ciudad.html'">Mi ciudad</li>
+        </ul>
+    </nav>
+
+    <iframe id="contenido" src="sm.html" name="contenido"></iframe>
+
+    <footer>
+        <p>Joel Villca Romero | Curso: 1ro C | Materia: Diseño y Programación WEB | 2026</p>
+    </footer>
+</body>
+</html>
